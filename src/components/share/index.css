@@ -1,0 +1,116 @@
+/* Share Modal Styling */
+.share-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+    z-index: 1000;
+    padding: 20px;
+  }
+  
+  .share-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .share-modal-header h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333333;
+  }
+  
+  .share-modal-header .close-btn {
+    font-size: 20px;
+    cursor: pointer;
+    color: #888888;
+    background: none;
+    border: none;
+  }
+  
+  .share-modal-header .close-btn:hover {
+    color: #ff4757;
+  }
+  
+  .share-modal-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .share-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22%;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .share-option-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    font-size: 24px;
+    color: #555555;
+    margin-bottom: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .share-option-icon:hover {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .share-option-label {
+    font-size: 12px;
+    color: #555555;
+  }
+  
+  /* Page Link Section */
+  .share-modal-footer {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #eaeaea;
+  }
+  
+  .page-link-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .page-link {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  .copy-btn {
+    padding: 6px 10px;
+    font-size: 12px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .copy-btn:hover {
+    background-color: #0056b3;
+  }
+  
